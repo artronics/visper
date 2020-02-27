@@ -1,6 +1,8 @@
+pub mod visper;
 pub mod core;
-pub mod dom;
 pub mod graphics;
+pub mod dom;
+pub mod window;
 
 #[cfg(test)]
 mod tests {

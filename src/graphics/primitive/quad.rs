@@ -1,5 +1,9 @@
 use crate::graphics::transformation::Transformation;
 
+#[derive(Clone, Copy, Eq, PartialEq, Hash, Debug)]
+pub struct Style {
+    background: u16,
+}
 
 pub struct Pipeline {
     pub pipeline: wgpu::RenderPipeline,
